@@ -1,0 +1,28 @@
+.d-table {
+    width: 80%;
+    border: 1px solid black;
+}
+
+table td {
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+table th {
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.searchField {
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    border: 1.5px solid rgb(60, 60, 60);
+    padding-left: 10px;
+}
+
+@media screen and (max-width:426px) {
+    .d-table {
+        width: 85%;
+    }
+}
