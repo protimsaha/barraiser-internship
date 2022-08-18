@@ -24,5 +24,6 @@ table th {
 @media screen and (max-width:426px) {
     .d-table {
         width: 85%;
+        table-layout: auto;
     }
 }
