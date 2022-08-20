@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 import './Table.css'
 import useEmployees from './useEmployees';
 
@@ -30,8 +30,9 @@ const TableData = () => {
 
     return (
         <div>
-            <div className='my-4 d-flex justify-content-around'>
+            <div className='my-4 d-flex justify-content-around align-items-center'>
                 <h1 className='text-center'>React Employee Table</h1>
+                <Link to='colaps' className='text-dark'>Colaps</Link>
                 <input placeholder='Search by First Name' className='searchField' type="text" onChange={searchData} />
             </div>
             <table className='table d-table mx-auto'>
